@@ -1,0 +1,55 @@
+body {
+  background-color: #2da8d2;
+  background-image: url("../img/bg.png");
+  background-repeat: repeat-x;
+  font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+}
+
+div.container {
+  margin: auto;
+  width: 800px;
+}
+
+.header {
+  text-align: center;
+}
+
+.invis {
+  display: none;
+}
+
+div.busterBox {
+  padding-top: 64px;
+}
+
+div.busterNode {
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 16px;
+  padding: 16px;
+}
+
+div.tweetImg {
+  float: left;
+}
+
+div.busterTweet {
+  padding-left: 80px;
+}
+
+div.add-more {
+  background-color: #ffffff;
+  border-radius: 16px;
+  font-size: 125%;
+  margin: auto;
+  padding: 16px;
+  text-align: center;
+  width: 240px;
+}
+
+div.deleteNode {
+  float: left;
+  color: #92374d;
+  font-size: 150%;
+  padding-left: 16px;
+}
