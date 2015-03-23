@@ -88,14 +88,14 @@ var BusterNode = React.createClass({
 
 
 var busterComponent = React.render(
-  <BusterBox url="/link" />,
+  <BusterBox url="./link" />,
   document.getElementById('content')
 );
 
 
 $(document).ready(function () {
   $('div.add-more').on('click', function () {
-    $.getJSON('/link', function (data) {
+    $.getJSON('./link', function (data) {
       var state = busterComponent.state;
       data.forEach(function (current) {
         state.data.push(current);
