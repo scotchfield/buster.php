@@ -9,7 +9,7 @@ function addLink( $db, $name, $url ) {
     $result = $db->fetch( 'SELECT * FROM links WHERE name = ? AND url = ?',
                           array( $name, $url ) );
 
-    if ( count( $result ) == 0 ) {
+    if ( ! isset( $result[ 'id' ] ) ) {
         $db->execute( 'INSERT INTO links (name, url) VALUES ( ?, ? )',
                       array( $name, $url ) );
         echo( 'Added: ' . $name . "\n" );
