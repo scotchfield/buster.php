@@ -35,7 +35,7 @@ var BusterList = React.createClass({
   render: function () {
     var busterNodes = this.props.data.map(function (node) {
       return (
-        <BusterNode name={node.name} url={node.url} />
+        <BusterNode key={node._id} name={node.name} url={node.url} />
       );
     });
     return (
