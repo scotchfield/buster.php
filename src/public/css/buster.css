@@ -53,3 +53,13 @@ div.deleteNode {
   font-size: 150%;
   padding-left: 16px;
 }
+
+div.about {
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: auto;
+  margin-top: 16px;
+  padding: 16px;
+  text-align: center;
+  width: 48px;
+}

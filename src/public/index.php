@@ -14,6 +14,11 @@
       </div>
       <div id="content"></div>
       <div class="add-more">One more?</div>
+      <div class="about">
+        <a href="https://github.com/scotchfield/buster.php">
+          <img src="img/GitHub-Mark-32px.png" />
+        </a>
+      </div>
     </div>
     <script type="text/jsx" src="js/buster.js"></script>
   </body>
